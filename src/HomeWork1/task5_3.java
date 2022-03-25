@@ -2,7 +2,7 @@ package HomeWork1;
 
 import java.util.Scanner;
 
-public class task5_2 {
+public class task5_3 {
 
     public static void main(String[] args) {
 
@@ -10,13 +10,16 @@ public class task5_2 {
         System.out.print("Введите Ваше имя: ");
         String name = in.nextLine();
 
-        if (name.equals("Вася")) {
-            System.out.println("Привет!");
-            System.out.println("Я тебя так долго ждал");
-        } else if (name.equals("Анастасия")) {
-            System.out.println("Я тебя так долго ждал");
-        } else {
-            System.out.println("Добрый день, а вы кто?");
+        switch (name) {
+            case "Вася":
+                System.out.println("Привет!");
+                System.out.println("Я тебя так долго ждал");
+                break;
+            case "Анастасия":
+                System.out.println("Я тебя так долго ждал");
+                break;
+            default:
+                System.out.println("Добрый день, а вы кто?");
         }
     }
 }

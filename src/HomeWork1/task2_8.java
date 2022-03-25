@@ -1,15 +1,16 @@
 package HomeWork1;
 
-public class task2_7 {
+public class task2_8 {
 
     public static void main(String[] args) {
 
-        int a = 8;
-        int b = 2;
-        int result6 = (5 + 7 > 20 ? 68 >= 68 : 22 * b >> b++) / --a;
+        boolean a = 6 - 2 > 3 && 12 * 12 <= 199;
+        // логический оператор И && выводит true когда оба выражения true, если хотя бы одно false - значит в результате false.
+        // 6 -2 = 4 > 3 true
+        // 12 * 12 = 144 <= 199 true
+        //Оба условия true - значит и в результате true
 
-
-        System.out.println(" 5 + 7 > 20 ? 68 >= 68 : 22 * b >> b++) / --a = " + result6);
+        System.out.println(a);
     }
 }
 

@@ -1,10 +1,21 @@
 package HomeWork1;
 
-import  java.util.Scanner;
+import java.util.Scanner;
 
-public class task5_1 {
+public class task4 {
 
     public static void main(String[] args) {
+
+        public boolean sleepIn(boolean weekday, boolean vacation) {
+
+
+
+            if (!weekday || vacation) {
+                System.out.print("Введите Ваше имя: ");
+            }
+
+            System.out.print("Введите Ваше имя: ");
+               }
 
         Scanner in = new Scanner(System.in);
         System.out.print("Введите Ваше имя: ");

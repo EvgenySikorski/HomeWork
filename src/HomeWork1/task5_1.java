@@ -1,17 +1,25 @@
 package HomeWork1;
 
-public class task3 {
+import  java.util.Scanner;
+
+public class task5_1 {
 
     public static void main(String[] args) {
-        // Извлечение квадратного корня
-        System.out.println("квадратный корень из числа 16 = " + Math.sqrt(16));
 
-        // Извлечение кубического корня
-        System.out.println("кубический корень из числа 27 = " + Math.cbrt(27));
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите Ваше имя: ");
+        String name = in.nextLine();
 
-        //возведения числа в степень: 4 в степени 2
-        System.out.println("4 в степени 2 = " + Math.pow(4,2)); // 1.0
-
+        if (name.equals("Вася")) {
+            System.out.println("Привет!");
+            System.out.println("Я тебя так долго ждал");
+        }
+        if (name.equals("Анастасия")) {
+            System.out.println("Я тебя так долго ждал");
+        }
+        if (!name.equals("Вася") && !name.equals("Анастасия")) {
+            System.out.println("Добрый день, а вы кто?");
+        }
     }
 }
 

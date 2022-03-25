@@ -1,10 +1,17 @@
 package HomeWork1;
 
-import java.util.Scanner;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
-public class task4 {
+public class task6 {
 
     public static void main(String[] args) {
+
+            @Test
+            public void tests() {
+                assertEquals("(123) 456-7890", Kata.createPhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}));
+            }
+        }
 
         public boolean sleepIn(boolean weekday, boolean vacation) {
 
