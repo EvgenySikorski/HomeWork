@@ -1,32 +1,20 @@
 package home_work_2.arrays;
 
 import java.util.Scanner;
+import java.util.Random;
 
-public class ArraysUtils_2_1_1 {
+public class ArraysUtils_2_1_2 {
 
-    public static int[] arrayFromConsole() {
-        int lengthArray;
-        int[] array;
+    public static int[] arrayRandom(int size, int maxValueExclusion) {
+        int[] container;
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Сколько элементов будет введено?: ");
+        Random rnd = new Random();
 
-        while (!sc.hasNextInt()) {
-            System.out.println("Введено неверное число");
-            sc.nextLine();
+        container = new int[size];
+
+        for (int i = 0; i < container.length; i++) {
+            container[i] = rnd.nextInt(maxValueExclusion);
         }
-
-        lengthArray = sc.nextInt();
-        array = new int[lengthArray];
-
-        for (int i = 0; i < array.length; i++) {
-            System.out.print("Введите элементы массива: ");
-            while (!sc.hasNextInt()) {
-                System.out.println("Введено неверное число");
-                sc.nextLine();
-            }
-                array[i] = sc.nextInt();
-        }
-        return array;
+        return container;
     }
 }
