@@ -14,3 +14,15 @@ task3 решает пункт ДЗ 3
 task5_1 решает пункт ДЗ 5.1 вариант if
 task5_2 решает пункт ДЗ 5.2 вариант if else
 task5_3 решает пункт ДЗ 5.3 вариант switch
+task4 решает пункт ДЗ 4
+task6 решает пункт ДЗ 6
+папка api/ICommunicationPrinter - решает п. ДЗ 8.1
+Task5_1_interface - решает п. ДЗ 8.2
+Task5_2_interface - решает п. ДЗ 8.2
+Task5_3_interface - решает п. ДЗ 8.2
+папка test/Task4Test - тестирование пункт ДЗ 9
+папка test/TTask5_1_interfaceTest - тестирование пункт ДЗ 9
+
+
+
+
